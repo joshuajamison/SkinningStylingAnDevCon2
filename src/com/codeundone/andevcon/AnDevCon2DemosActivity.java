@@ -14,7 +14,9 @@ import com.codeundone.andevcon.demo04.ButtonsActivity;
 import com.codeundone.andevcon.demo05.ImagesActivity;
 import com.codeundone.andevcon.demo06.TabsActivity;
 import com.codeundone.andevcon.demo07.DialogsActivity;
-import com.codeundone.andevcon.demo09.WidgetsActivity;
+import com.codeundone.andevcon.demo08.Attr1Activity;
+import com.codeundone.andevcon.demo08.Attr2Activity;
+import com.codeundone.andevcon.demo10.WidgetsActivity;
 
 public class AnDevCon2DemosActivity extends ListActivity {
 	
@@ -58,10 +60,13 @@ public class AnDevCon2DemosActivity extends ListActivity {
     	case 6:				//        <item >Dialogs</item>
     		i.setClass(this, DialogsActivity.class);
     		break;
-    	case 7:				//        <item >Draw9Patch</item>
-    		i.setClass(this, WidgetsActivity.class);
+    	case 7:				//        <item >Widgets</item>
+    		i.setClass(this, Attr1Activity.class);
     		break;
     	case 8:				//        <item >Widgets</item>
+    		i.setClass(this, Attr2Activity.class);
+    		break;
+    	case 9:				//        <item >Widgets</item>
     		i.setClass(this, WidgetsActivity.class);
     		break;
     		

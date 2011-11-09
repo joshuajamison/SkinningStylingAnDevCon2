@@ -39,7 +39,12 @@
         
         <activity android:name=".demo07.DialogsActivity" android:label="Dialogs" />
         
-        <activity android:name=".demo08.WidgetsActivity" android:label="Custom Widgets" />
+        <activity android:name=".demo08.Attr1Activity" android:label="Attr - 1" 
+            android:theme="@style/MyTheme"/>
+        <activity android:name=".demo08.Attr2Activity" android:label="Attr - 2"
+            android:theme="@style/MyTheme.Large"/>
+        
+        <activity android:name=".demo10.WidgetsActivity" android:label="Custom Widgets" />
     </application>
 
 </manifest>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="snt">Styles &amp; Themes</string>
+
     <string-array name="main_items">
-        <item >Styles &amp; Themes</item>
-        <item >Inheritance</item>
-        <item >Backgrounds</item>
-        <item >Buttons</item>
-        <item >Images</item>
-        <item >Tabs</item>
-        <item >Dialogs</item>
-        <item >Custom Widgets</item>
+        <item>@string/snt</item>
+        <item>Inheritance</item>
+        <item>Backgrounds</item>
+        <item>Buttons</item>
+        <item>Images</item>
+        <item>Tabs</item>
+        <item>Dialogs</item>
+        <item>Attr Demo 1</item>
+        <item>Attr Demo 2</item>
+        <item>Custom Widgets</item>
     </string-array>
-    
+
 </resources>

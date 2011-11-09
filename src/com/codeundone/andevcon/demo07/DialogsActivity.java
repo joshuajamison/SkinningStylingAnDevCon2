@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.codeundone.andevcon.R;
 
@@ -19,7 +20,9 @@ public class DialogsActivity extends Activity implements OnClickListener {
 	}
 	
 	public void onDialog(View view) {
-		Dialog d = new Dialog(this);
+		Dialog d = new Dialog(this, R.style.MyDialogTheme);
+		d.setContentView(new Button(this));
+		d.setTitle("Regular Dialog");
 		d.setCancelable(true);
 		d.show();
 	}

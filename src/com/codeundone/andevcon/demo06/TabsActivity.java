@@ -4,7 +4,7 @@ import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.Button;
 import android.widget.TabHost;
 
 import com.codeundone.andevcon.R;
@@ -28,8 +28,9 @@ public class TabsActivity extends TabActivity {
 //	    spec = tabHost.newTabSpec("artists").setIndicator("Artists",
 //	                      res.getDrawable(android.R.drawable.ic_input_add))
 //	                  .setContent(intent);
-	    View tab1 = View.inflate(this, R.layout.demo_06_tabs_view, null);
-	    spec = tabHost.newTabSpec("artists").setIndicator(tab1)
+	    Button tab1view = new Button(this);
+	    tab1view.setText("Button Tab");
+	    spec = tabHost.newTabSpec("artists").setIndicator(tab1view)
 	    		.setContent(intent);
 	    tabHost.addTab(spec);
 

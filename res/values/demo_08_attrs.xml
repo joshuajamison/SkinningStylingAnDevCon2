@@ -10,4 +10,16 @@
         <attr name="reverseText" format="boolean" />
     </declare-styleable>
     
+	<style name="MyTheme" parent="@android:style/Theme">
+	    <item name="headerTextSize">10dp</item>
+	</style>
+    
+	<style name="MyTheme.Large">
+	    <item name="headerTextSize">30dp</item>
+	</style>
+    
+	<style name="MyWidgetStyle">
+	    <item name="reverseText">true</item>
+	</style>
+    
 </resources>

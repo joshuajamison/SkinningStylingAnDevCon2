@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_items">
+        <item >Styles &amp; Themes</item>
+        <item >Inheritance</item>
+        <item >Backgrounds</item>
+        <item >Buttons</item>
+        <item >Images</item>
+        <item >Tabs</item>
+        <item >Dialogs</item>
+        <item >Custom Widgets</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codeundone.andevcon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".AnDevCon2DemosActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+		</activity>
+		
+		<activity android:name=".demo01.StylesThemesActivity" android:label="Styles &amp; Themes"
+	        android:theme="@style/MyGrandTheme" />
+		
+		<activity android:name=".demo02.InheritanceActivity" android:label="Inheritance" 
+	        android:theme="@style/InheritanceDemoTheme" />
+		
+		<activity android:name=".demo03.BackgroundsActivity" android:label="Backgrounds" 
+		    android:theme="@style/Demo03Theme"/>
+		
+		<activity android:name=".demo04.ButtonsActivity" android:label="Buttons" />
+		
+		<activity android:name=".demo05.ImagesActivity" android:label="Images" />
+		
+        <activity android:name=".demo06.TabsActivity" android:label="Tabs" />
+        <activity android:name=".demo06.Tab1Activity" />
+        <activity android:name=".demo06.Tab2Activity" />
+        <activity android:name=".demo06.Tab3Activity" />
+        
+        <activity android:name=".demo07.DialogsActivity" android:label="Dialogs" />
+        
+        <activity android:name=".demo08.WidgetsActivity" android:label="Custom Widgets" />
+    </application>
+
+</manifest>

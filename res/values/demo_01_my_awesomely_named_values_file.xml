@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyGrandTheme">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="MyGrandTheme2">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:drawableRight">@drawable/ic_launcher</item>
+    </style>
+
+    <style name="MyTinyStyle">
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    
+</resources>
